@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Exam Cloud Shortcuts",
+  "version": "1.1",
+  "author": "Roshan David Jathanna",
+  "description": "Keyboard shortcuts for faster paper evaluation in ExamCloud",
+
+  "content_scripts": [
+    {
+      "matches": ["https://manipal.examcloud.in/evaluation/*"],
+      "js": ["content-script-examcloud.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  
+  "web_accessible_resources": [
+    {
+      "resources": ["page.js"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
