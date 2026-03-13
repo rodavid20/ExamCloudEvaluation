@@ -36,12 +36,13 @@ I’ve added my two cents by mapping the number keys to commonly used mark value
 
 ## 🛠️ Installation Instructions
 
-Because this is a custom extension, you will need to load it directly into Chrome manually.
+To install this custom extension manually in Chrome, follow these steps:
 
-1. **Download the Extension:** Download the `ExamCloudChrome.zip` file inside release folder from this repository and extract/unzip it into a folder on your computer.
-2. **Open Chrome Extensions:** In Google Chrome, click the three dots in the top right corner, then go to **Settings** -> **Extensions** (or just type `chrome://extensions/` into your address bar).
-3. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner of the Extensions page.
-4. **Load the Plugin:** Click the **Load unpacked** button that appears in the top left, and select the folder where you unzipped the extension files.
+1. **Download:** Click on the green **"Code"** button located near the top right of the file list, and select **"Download ZIP"** from the dropdown menu.
+2. **Extract:** Locate the downloaded `.zip` file on your computer and **Extract/Unzip** it into a new folder. 
+3. **Open Chrome Extensions:** In Google Chrome, go to **Settings** -> **Extensions** (or type `chrome://extensions/` into your address bar).
+4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner of the Extensions page.
+5. **Load the Plugin:** Click the **Load unpacked** button that appears in the top left, and select the folder you just extracted.
 
 
 ## 👨‍💻 Authors & Credits
