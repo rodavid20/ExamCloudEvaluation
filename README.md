@@ -7,9 +7,8 @@ Ditch the mouse and grade faster on ExamCloud! This extension adds time-saving k
 You can easily navigate through scripts and assign marks directly using your keyboard. A visual pop-up will appear on the screen to instantly confirm the marks you've assigned.
 
 ### Navigation
-* **`Right Arrow`**: Navigate to the next question
-* **`Left Arrow`**: Navigate to the previous question
-* **`Space`**: Move to the next paper
+* **`Right Arrow` or `Space`**: Navigate to the next question/paper
+* **`Left Arrow`**: Navigate to the previous question/paper
 
 ### Increment & Decrement
 * **`+` (Plus Key)**: Increments the current score by **0.5**. (Automatically caps at the maximum allowed marks for the question).
