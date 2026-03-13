@@ -64,11 +64,13 @@ window.addEventListener("message", function(event) {
             let val = parseFloat(event.data.value);
             let max = getMaxScore();
             
-            if (val > max) val = max; 
-            
-            setMarks(val);
-            showMarksToast(val); // Show the final score
-        }
+            if (val <= max) {
+				setMarks(val);
+				showMarksToast(val); // Show the final score
+			}  else {
+				showMarksToast("Invalid"); 		
+			}
+		}
     }
 if (event.data.action === "INCREMENT") {
         let newScore = getCurrentScore() + parseFloat(event.data.value); 
@@ -106,14 +108,16 @@ if (event.data.action === "INCREMENT") {
         let val = parseFloat(event.data.value);
         let max = getMaxScore();
         
-        if (val > max) val = max; 
-        
-        const input = document.getElementById("txtscore");
-        if (input) input.value = val;
+        if (val <= max) {
+        	const input = document.getElementById("txtscore");
+			if (input) input.value = val;
 
-        if (typeof setMarks === "function") {
-            setMarks(val);
-        }
-        showMarksToast(val); 
+			if (typeof setMarks === "function") {
+				setMarks(val);
+			}
+			showMarksToast(val); 
+		} else {
+			showMarksToast("Invalid"); 
+		}
     }
 });
