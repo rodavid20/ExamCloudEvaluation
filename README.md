@@ -7,7 +7,7 @@ Ditch the mouse and grade faster on ExamCloud! This extension adds time-saving k
 You can easily navigate through scripts and assign marks directly using your keyboard. A visual pop-up will appear on the screen to instantly confirm the marks you've assigned.
 
 ### Navigation
-* **`Right Arrow` or `Space`**: Navigate to the next question/paper
+* **`Right Arrow`**: Navigate to the next question/paper
 * **`Left Arrow`**: Navigate to the previous question/paper
 
 ### Increment & Decrement
@@ -42,6 +42,8 @@ To install this custom extension manually in Chrome, follow these steps:
 3. **Open Chrome Extensions:** In Google Chrome, go to **Settings** -> **Extensions** (or type `chrome://extensions/` into your address bar).
 4. **Enable Developer Mode:** Toggle the **Developer mode** switch in the top right corner of the Extensions page.
 5. **Load the Plugin:** Click the **Load unpacked** button that appears in the top left, and select the folder you just extracted.
+
+**Important Security Note:** Once you have completely finished your evaluations, it is highly recommended to go back to your Extensions page and toggle Developer mode back OFF. This is a good general security practice for your browser.
 
 
 ## 👨‍💻 Authors & Credits
