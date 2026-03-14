@@ -27,7 +27,7 @@ script.onload = function () {
 document.addEventListener("keydown", function (e) {
 
     /* Next paper */
-    if (e.key === "ArrowRight" || e.code === "Space") {
+    if (e.key === "ArrowRight") {
         console.log("Navigate Right");
 
         window.postMessage({
